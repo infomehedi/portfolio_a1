@@ -93,6 +93,7 @@ h5 {
 .donate-amount {
     width: 125px;
     height: auto;
+    background-color: #f1f1f1;
     padding: 30px 22px;
     text-align: center;
     color: #808080;
@@ -215,7 +216,7 @@ input[type=submit] {
 
 .blog-half-width-flex {
     display: flex;
-    margin-bottom: 30px;
+    margin: 150px 0px;
     padding: 0px 200px;
 }
 
