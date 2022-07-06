@@ -7,12 +7,10 @@ body {
 p {
     font-size: 18px;
     line-height: 25px;
-    color: #808080;
 }
 
 h1 {
     font-size: 50px;
-    color: #000000bd;
 }
 
 h2 {
@@ -71,7 +69,6 @@ h5 {
 
 .donate-today {
     margin: 50px 0px;
-    background-color: #e9e9e9;
     padding: 10px 0px;
 
 }
@@ -99,7 +96,6 @@ h5 {
     padding: 30px 22px;
     text-align: center;
     color: #808080;
-    background-color: #f1f1f1;
     margin: 15px;
     font-size: 25px;
     font-weight: 700;
@@ -123,11 +119,11 @@ input[type=text] {
 
 input[type=submit] {
     text-align: center;
-    padding: 10px 25px;
+    padding: 10px 20px;
     border: none;
     color: #fff;
     background-color: #008000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     border-radius: 3px;
     text-transform: uppercase;
@@ -150,7 +146,6 @@ input[type=submit] {
 
 .donate-plan-list {
     display: flex;
-    background-color: #808080;
     padding: 10px;
 }
 
@@ -160,7 +155,6 @@ input[type=submit] {
 .our-donate-plan {
     margin: 100px 0px;
     padding: 20px 0px;
-    background-color: #e9e9e9;
     justify-content: center;
     text-align: center;
 }
@@ -213,14 +207,13 @@ input[type=submit] {
     color: #fff;
     background-color: #008000;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 3px;
     text-transform: uppercase;
 }
 
 
 .blog-half-width-flex {
-    background-color: #f1f1f1;
     display: flex;
     margin-bottom: 30px;
     padding: 0px 200px;
@@ -238,10 +231,66 @@ input[type=submit] {
 }
 
 
-.text-right-padding{
+.text-right-padding {
     padding-right: 50px;
 }
 
-.text-left-padding{
+.text-left-padding {
     padding-left: 50px;
+}
+
+.email-form-design {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+.email-form-head {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.email-collect-form {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+.email-collect-form form {
+    background-color: #e9e9e9;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding: 40px 0px;
+    border-radius: 5px;
+}
+
+#email-data {
+    padding: 15px 30px;
+
+}
+
+input[type=email] {
+    border: 1px solid #f1f1f1;
+    padding: 10px 20px;
+    order: none;
+    color: #eceaea;
+    background-color: #808080bd;
+    font-size: 18px;
+    border-radius: 3px;
+
+}
+
+footer {
+    background-color: #E0FFFF;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.fotter-content {
+    text-align: center;
+    padding: 20px 0px;
 }
